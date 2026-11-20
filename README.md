@@ -13,9 +13,8 @@ evaluation, plus a game-history repetition guard: a position seen
 twice before in the game is scored as a draw (0), so the engine
 avoids repeating a position for the third time. The first submission
 was rejected on a missing run record, so the engine was rewritten
-from scratch in the session that submits it (v2), then improved again
-in the same session (v5: new names and layout, tempo +10 plus the
-repetition guard) and re-screened in one fresh 32-game run.
+from scratch in the session that submits it (v2), then improved
+again in the same session (v5) and re-screened.
 
 ## How it plays
 
@@ -50,11 +49,9 @@ slim4s v2 (tempo +10) screening vs slim4e (10k nodes, one fresh
 
 slim4s v5 (tempo +10 + repetition guard) screening vs slim4s v2
 (10k nodes, one fresh 32-game run, 21 Nov 2026): 10W-14D-8L,
-Elo +21,7 (90% CI [-79,5, +123,0]). The pass is marginal — the
-interval still covers negative values — so the submission decision
-rests on the owner's approval, not on this screening alone.
-Full gauntlet not yet run; this entry is submitted on the screening
-evidence.
+Elo +21,7 (90% CI [-79,5, +123,0]) — a marginal pass, so the
+submission decision rests on the owner's approval. Full gauntlet
+not yet run.
 
 ## Size
 
