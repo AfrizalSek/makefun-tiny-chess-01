@@ -4,15 +4,15 @@
 [![rank](https://make.fun/badge/tiny-chess-01/AfrizalSek/makefun-tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/AfrizalSek/makefun-tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A chess engine in 3,291 bytes of Python 3.13 (standard library only),
+A chess engine in 3,743 bytes of Python 3.13 (standard library only),
 written for the [make.fun tiny-chess-01 bounty](https://make.fun/bounty/tiny-chess-01):
 the strongest engine that fits in 4 KB.
 
 slim4s is slim4e plus one change: a side-to-move tempo bonus (+10) in
-the evaluation. Rebuilt fresh from scratch in a new session on 21 Nov
-2026 (the first submission was rejected on a missing run record, so the
-engine was rewritten in the session that submits it) and re-screened
-in one fresh 32-game run.
+the evaluation. The first submission was rejected on a missing run
+record, so the engine was rewritten from scratch in the session that
+submits it (v2: new names and layout, same search and evaluation),
+then re-screened in one fresh 32-game run.
 
 ## How it plays
 
@@ -41,12 +41,12 @@ slim4e (the entry this replaces):
   the 1154 final floor (+193,7)
 
 slim4s screening vs slim4e (10k nodes, one fresh 32-game run,
-21 Nov 2026): 15W-14D-3L, Elo +137,0 (90% CI [+28,0, +246,0]).
-Full gauntlet not yet run; this entry is submitted on the
-screening evidence.
+21 Nov 2026, v2 rebuild): 15W-14D-3L, Elo +137,0
+(90% CI [+28,0, +246,0]). Full gauntlet not yet run; this entry is
+submitted on the screening evidence.
 
 ## Size
 
-- `main.py`: 3,291 bytes (limit 4,096)
+- `main.py`: 3,743 bytes (limit 4,096)
 - Whole repository: under 8,192 bytes, no file over 4,096
 - License: MIT
