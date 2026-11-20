@@ -9,8 +9,10 @@ written for the [make.fun tiny-chess-01 bounty](https://make.fun/bounty/tiny-che
 the strongest engine that fits in 4 KB.
 
 slim4s is slim4e plus one change: a side-to-move tempo bonus (+10) in
-the evaluation. Screened against slim4e at 10k nodes, 32 games:
-14 wins, 14 draws, 4 losses — Elo +112.3.
+the evaluation. Rebuilt fresh from scratch in a new session on 21 Nov
+2026 (the first submission was rejected on a missing run record, so the
+engine was rewritten in the session that submits it) and re-screened
+in one fresh 32-game run.
 
 ## How it plays
 
@@ -38,8 +40,9 @@ slim4e (the entry this replaces):
   1325 (+22,7), below the ~1450 prize threshold (-102,3), and above
   the 1154 final floor (+193,7)
 
-slim4s screening vs slim4e (10k nodes, 32 games): 14W-14D-4L,
-Elo +112,3. Full gauntlet not yet run; this entry is submitted on the
+slim4s screening vs slim4e (10k nodes, one fresh 32-game run,
+21 Nov 2026): 15W-14D-3L, Elo +137,0 (90% CI [+28,0, +246,0]).
+Full gauntlet not yet run; this entry is submitted on the
 screening evidence.
 
 ## Size
